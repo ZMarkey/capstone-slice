@@ -13,3 +13,7 @@ if __name__ == "__main__":
     skills = extract_skills(skills_text)
     print("Skills found:", skills)
 
+    experience_line = [line for line in sample_text.split("\n") if line.startswith("Experience:")][0]
+    experience_text = experience_line.replace("Experience:", "").strip()
+    print("Experience found:", experience_text)
+
