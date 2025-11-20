@@ -12,4 +12,4 @@ if __name__ == "__main__":
     skills_text = skills_line.replace("Skills:", "").strip()
     skills = extract_skills(skills_text)
     print("Skills found:", skills)
-    print("Running CI/CD demo")
+
